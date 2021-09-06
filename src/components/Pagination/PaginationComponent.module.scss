@@ -1,0 +1,24 @@
+.Pagination {
+  // border: 1px solid rgb(209, 194, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.PaginationItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 2px solid rgba(192, 47, 47, 0);
+  border-radius: 50%;
+  padding: 5px;
+  margin: 3px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  &_current {
+    border: 2px solid rgb(192, 47, 47);
+  }
+}

@@ -1,0 +1,29 @@
+.list-group {
+  min-width: 100%;
+  border: 3px solid rgb(255, 0, 0);
+  flex: 1 1 auto;
+}
+.noteItem {
+  border: 2px solid rgb(152, 151, 209);
+  width: 100%;
+  flex: 1 1 auto;
+}
+.note-exit-active {
+  animation: noteAnime 800ms ease-in-out forwards;
+}
+.note-enter-active {
+  animation: noteAnime 800ms ease-in alternate-reverse;
+}
+@keyframes noteAnime {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    opacity: 0.7;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+}

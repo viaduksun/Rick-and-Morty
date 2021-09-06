@@ -1,0 +1,16 @@
+.Footer {
+  height: 70px;
+  background: #000;
+
+  p {
+    color: rgb(138, 138, 138);
+    text-align: center;
+  }
+}
+.content {
+  flex: 1 1 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
